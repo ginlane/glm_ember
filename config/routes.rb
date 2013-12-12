@@ -1,4 +1,3 @@
 GlmEmber::Engine.routes.draw do
-  mount Teaspoon::Engine => "/teaspoon"
-  mount QUnit::Rails::Engine => "/qunit"
+#  mount Teaspoon::Engine => "/teaspoon"
 end
