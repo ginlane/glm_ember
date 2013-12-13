@@ -1,2 +1,2 @@
-require 'teaspoon'
-require 'qunit-rails'
+# require 'teaspoon'
+# require 'qunit-rails'

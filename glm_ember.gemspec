@@ -20,11 +20,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'ember-rails'
   s.add_dependency 'sinon-rails'
   s.add_dependency 'rspec-rails'
-  s.add_dependency 'qunit-rails'
-  s.add_dependency 'teaspoon'
-  s.add_dependency 'guard'
-  s.add_dependency 'guard-rspec'
-  s.add_dependency 'guard-teaspoon'
 
   s.add_development_dependency "sqlite3"
 end
