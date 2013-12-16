@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 
+gem "pry"
+gem "binding_of_caller"
+gem "generator_spec"
+
 # Declare your gem's dependencies in glm_ember.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
