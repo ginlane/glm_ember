@@ -10,7 +10,6 @@ module GlmEmber
       class_option :app_name, type: :string, default: "App"
 
       def append_gems
-        puts options.inspect
         if options[:engine]
           file_name  = "#{options[:engine].tableize.singularize}.gemspec"
           gem_prefix = "s.add_dependency"
