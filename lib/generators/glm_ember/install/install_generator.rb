@@ -19,7 +19,7 @@ module GlmEmber
         end
 
 
-        create_file file_name, <<-EOS
+        append_file file_name, <<-EOS
 
 #{gem_prefix} "ember-rails"
 #{gem_prefix} "guard"
@@ -34,7 +34,7 @@ module GlmEmber
       end
 
       def update_guardfile
-        create_file "Guardfile", <<-'EOS'
+        append_file "Guardfile", <<-'EOS'
 
 guard :teaspoon do
   watch(%r{app/assets/javascripts/(.+).js}) { |m| "#{m[1]}_spec" }
