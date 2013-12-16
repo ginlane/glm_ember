@@ -12,3 +12,8 @@ bundle
 brew install phantomjs
 bundle exec rails g glm_ember:install
 ```
+
+Optoins:
+
+* `--app-name` The Ember app name
+* `--engine` If the project is a Rails engine use this and it will set the app name and put the js files under your apps namespace.
